@@ -1,0 +1,285 @@
+/* body{
+  overflow:hidden;
+} */
+/* figma css */
+.android-large-1,
+.android-large-1 * {
+  box-sizing: border-box;
+}
+.android-large-1 {
+  background: #78b0af;
+  width: 360px;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+}
+.c-811-bc-3-f-093-aecdae-42-d-4884-ab-4-db-6-eb-1 {
+  width: 441px;
+  height: 495px;
+  position: absolute;
+  left: -45px;
+  top: 342px;
+}
+.goa {
+  color: #ffffff;
+  text-align: left;
+  font: 400 120px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 32px;
+  top: 42px;
+}
+.vector-1 {
+  width: 170.22px;
+  height: 149.24px;
+  position: absolute;
+  left: -10px;
+  top: 467px;
+  overflow: visible;
+}
+.vector-2 {
+  width: 170.22px;
+  height: 149.24px;
+  position: absolute;
+  left: 365px;
+  top: 467px;
+  transform: translate(-170.22px, 0px);
+  overflow: visible;
+}
+._30 {
+  color: #000000;
+  text-align: left;
+  font: 400 50px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 32px;
+  top: 500px;
+}
+._302 {
+  color: #000000;
+  text-align: left;
+  font: 400 50px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 253px;
+  top: 500px;
+}
+.group {
+  position: absolute;
+  inset: 0;
+}
+.d {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 32.61px;
+  top: 549px;
+  transform-origin: 0 0;
+  transform: rotate(28.576deg) scale(1, 1);
+}
+.a {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 42.52px;
+  top: 556.52px;
+  transform-origin: 0 0;
+  transform: rotate(7.896deg) scale(1, 1);
+}
+.y {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 54px;
+  top: 559.82px;
+  transform-origin: 0 0;
+  transform: rotate(-12.032deg) scale(1, 1);
+}
+.s {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 65.88px;
+  top: 558.56px;
+  transform-origin: 0 0;
+  transform: rotate(-30.456deg) scale(1, 1);
+}
+.h {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 254.84px;
+  top: 547px;
+  transform-origin: 0 0;
+  transform: rotate(35.147deg) scale(1, 1);
+}
+.o {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 265.66px;
+  top: 556.61px;
+  transform-origin: 0 0;
+  transform: rotate(15.915deg) scale(1, 1);
+}
+.u {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 279.28px;
+  top: 562.03px;
+  transform-origin: 0 0;
+  transform: rotate(-2.984deg) scale(1, 1);
+}
+.r {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 293.63px;
+  top: 562.5px;
+  transform-origin: 0 0;
+  transform: rotate(-20.889deg) scale(1, 1);
+}
+.s2 {
+  color: #000000;
+  text-align: left;
+  font: 400 25px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 306.54px;
+  top: 558.49px;
+  transform-origin: 0 0;
+  transform: rotate(-37.136deg) scale(1, 1);
+}
+.rectangle-1 {
+  width: 360px;
+  height: 40px;
+  position: absolute;
+  left: -1px;
+  top: 322px;
+  overflow: visible;
+}
+.ellipse-1 {
+  background: #78b0af;
+  border-radius: 50%;
+  width: 137px;
+  height: 137px;
+  position: absolute;
+  left: 111px;
+  top: 267px;
+}
+.manam-goa {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 7px;
+  top: 327px;
+}
+.poothunnam {
+  color: #000000;
+  text-align: left;
+  font: 400 12px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 250px;
+  top: 327px;
+}
+._0-c-186037-b-376382-affdc-6-a-42-b-55-fb-8-d-3-1 {
+  border-radius: 281.5px;
+  width: 144px;
+  height: 151px;
+  position: absolute;
+  left: 104px;
+  top: 260px;
+}
+.ellipse-2 {
+  background: #78b0af;
+  border-radius: 50%;
+  width: 70px;
+  height: 83px;
+  position: absolute;
+  left: 141px;
+  top: 73px;
+}
+._303 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 36px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 154px;
+  top: 90px;
+}
+.s3 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 129.83px;
+  top: 147px;
+  transform-origin: 0 0;
+  transform: rotate(39.048deg) scale(1, 1);
+}
+.e {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 138.15px;
+  top: 154.04px;
+  transform-origin: 0 0;
+  transform: rotate(26.717deg) scale(1, 1);
+}
+.c {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 149.28px;
+  top: 159.83px;
+  transform-origin: 0 0;
+  transform: rotate(13.701deg) scale(1, 1);
+}
+.o2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 161.27px;
+  top: 163.01px;
+  transform-origin: 0 0;
+  transform: rotate(0.343deg) scale(1, 1);
+}
+.n {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 174.65px;
+  top: 163.22px;
+  transform-origin: 0 0;
+  transform: rotate(-13.016deg) scale(1, 1);
+}
+.d2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 186.78px;
+  top: 160.67px;
+  transform-origin: 0 0;
+  transform: rotate(-26.375deg) scale(1, 1);
+}
+.s4 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "InknutAntiqua-Regular", sans-serif;
+  position: absolute;
+  left: 199.05px;
+  top: 154.56px;
+  transform-origin: 0 0;
+  transform: rotate(-39.048deg) scale(1, 1);
+}

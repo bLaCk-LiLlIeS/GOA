@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vars.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="android-large-1">
+      <img
+        class="c-811-bc-3-f-093-aecdae-42-d-4884-ab-4-db-6-eb-1"
+        src="c-811-bc-3-f-093-aecdae-42-d-4884-ab-4-db-6-eb-10.png"
+      />
+      <div class="goa">GOA</div>
+      <svg
+        class="vector-1"
+        width="151"
+        height="150"
+        viewBox="0 0 151 150"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M123.5 5.5C75.1 -10.5 21 12.1667 0 25.5L-20 59.5C-16.6667 86.1667 0.5 141.2 42.5 148C84.5 154.8 114 131.833 123.5 119.5C143.667 88.1667 171.9 21.5 123.5 5.5Z"
+          fill="#D87A7A"
+          fill-opacity="0.18"
+        />
+      </svg>
+
+      <svg
+        class="vector-2"
+        width="159"
+        height="150"
+        viewBox="0 0 159 150"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M26.7241 5.50311C75.1241 -10.4969 129.224 12.1698 150.224 25.5031L170.224 59.5031C166.891 86.1698 149.724 141.203 107.724 148.003C65.7241 154.803 36.2241 131.836 26.7241 119.503C6.55745 88.1698 -21.6759 21.5031 26.7241 5.50311Z"
+          fill="#D87A7A"
+          fill-opacity="0.18"
+        />
+      </svg>
+
+      <div class="_30" id="days">30</div>
+      <div class="_302" id="hours">30</div>
+      <div class="group">
+        <div class="d">D</div>
+        <div class="a">A</div>
+        <div class="y">Y</div>
+        <div class="s">S</div>
+      </div>
+      <div class="group">
+        <div class="h">H</div>
+        <div class="o">O</div>
+        <div class="u">U</div>
+        <div class="r">R</div>
+        <div class="s2">S</div>
+      </div>
+      <svg
+        class="rectangle-1"
+        width="359"
+        height="40"
+        viewBox="0 0 359 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M-1 0H359V40H-1V0Z" fill="#D9D9D9" />
+      </svg>
+
+      <div class="ellipse-1"></div>
+      <div class="manam-goa">MANAM GOA</div>
+      <div class="poothunnam">POOTHUNNAM</div>
+      <img
+        class="_0-c-186037-b-376382-affdc-6-a-42-b-55-fb-8-d-3-1"
+        src="_0-c-186037-b-376382-affdc-6-a-42-b-55-fb-8-d-3-10.png"
+      />
+      <div class="ellipse-2"></div>
+      <div class="_303" id="seconds">30</div>
+      <div class="group">
+        <div class="s3">S</div>
+        <div class="e">E</div>
+        <div class="c">C</div>
+        <div class="o2">O</div>
+        <div class="n">N</div>
+        <div class="d2">D</div>
+        <div class="s4">S</div>
+      </div>
+    </div>
+
+    <!-- script start -->
+  <script>
+    var countDown = new Date("dec 23, 2023 00:00:00").getTime();
+   //  console.log(countDown);
+
+   var x= setInterval( function(){
+       var now = new Date().getTime();
+       var differance = countDown-now;
+       // console.log(differance);
+
+       var days = Math.floor(differance/(1000*60*60*24));
+       // console.log(days);
+       var hours = Math.floor(differance % (1000*60*60*24)/(1000*60*60));
+       //  console.log(hours);
+      //  var minutes = Math.floor(differance % (1000*60*60)/(1000*60));
+       var seconds = Math.floor(differance % (1000*60)/(1000));
+       
+
+       document.getElementById("days").innerHTML = days;
+       document.getElementById("hours").innerHTML = hours;
+      //  document.getElementById("minutes").innerHTML = minutes;
+       document.getElementById("seconds").innerHTML = seconds;
+
+   }
+       
+   ,1000)
+   // console.log(now);
+</script>
+<!-- script end -->
+  </body>
+</html>
